@@ -1,0 +1,5 @@
+#!/bin/sh
+
+npx webpack $1 --output output.js
+npx mocha output.js --color
+rm output.js

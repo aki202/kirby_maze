@@ -1,0 +1,18 @@
+{
+  "name": "kirby_maze",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "random-weighted-choice": "^0.1.3",
+    "webpack": "^4.39.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --watch"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
